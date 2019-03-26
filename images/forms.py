@@ -1,20 +1,20 @@
 from django import forms
 from .models import Image,Profile,Comments
 
-class ProfileForm(forms.Form):
+class ProfileForm(forms.ModelForm):
   
-    first_name = forms.CharField(max_length=30)
-    last_name = forms.CharField(max_length=30)
-    prof_image = forms.ImageField(upload_to='images/')
-    bio = forms.CharField(max_length =200)
+    class Meta:
+        model = Profile
+        exclude = ['user']
 
-class ImageForm(forms.Form):
+class ImageForm(forms.ModelForm):
     
-    image = forms.ImageField(upload_to='images/')
-    name = forms.CharField(max_length =60)
-    caption = forms.CharField(max_length =200)
+    class Meta:
+        model = Image
+        exclude = ['user','profile']
 
-class CommentsForm(forms.Form):
+class CommentsForm(forms.ModelForm):
 
-    comment = forms.CharField(max_length = 300)
-    
+    class Meta:
+        model = Comments
+        exclude = ['user']
