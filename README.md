@@ -30,6 +30,9 @@ This is a simple web clone of the instagram website. A user can create an accoun
 * django==1.11
 * bootsrap
 
+## Live Link on github
+* https://github.com/imalexianne/Instagram
+
 ## Clone the Repo
 * Run the following command on the terminal: git clone https://github.com/imalexianne/Instagram.git 
 * type cd Instagram on terminal
