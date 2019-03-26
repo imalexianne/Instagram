@@ -45,3 +45,5 @@ This is a simple web clone of the instagram website. A user can create an accoun
 ## Support and contact details
  For any support please contact me on:
  imalexianne@gmail.com
+
+## License
