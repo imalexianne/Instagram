@@ -19,3 +19,13 @@ This is a simple web clone of the instagram website. A user can create an accoun
 1. Users can post pics, comment, like and follow their friends,
 
 2. User can search other users and be able to see their stories and comment or like the pictures.
+
+## Set Up and Installations
+* Prerequisites:
+
+* Ubuntu Software
+* Python3.6
+* Postgres
+* python virtualenv
+* django==1.11
+* bootsrap
