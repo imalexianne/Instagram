@@ -41,3 +41,7 @@ This is a simple web clone of the instagram website. A user can create an accoun
 - JavaScript
 - Heroku for the deployment
 - Postgresql for the database
+
+## Support and contact details
+ For any support please contact me on:
+ imalexianne@gmail.com
