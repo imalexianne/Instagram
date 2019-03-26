@@ -33,3 +33,11 @@ This is a simple web clone of the instagram website. A user can create an accoun
 ## Clone the Repo
 * Run the following command on the terminal: git clone https://github.com/imalexianne/Instagram.git 
 * type cd Instagram on terminal
+
+## Technologies used
+- Python 3.6
+- HTML for the structure
+- Bootstrap 4 for the design
+- JavaScript
+- Heroku for the deployment
+- Postgresql for the database
